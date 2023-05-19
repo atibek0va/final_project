@@ -9,7 +9,7 @@ public class LoginPage {
 
     WebDriver driver;
 
-    @FindBy(xpath = "/html/body/nav/div[1]/ul/li[5]/a")
+    @FindBy(linkText = "Log in")
     WebElement getLoginButton;
 
     @FindBy(id = "loginusername")
