@@ -51,7 +51,7 @@ public class TestCases {
     @Test(priority = 0)
     public void registrationTest() throws InterruptedException{
         registrationPage.clickRegistration();
-        //registrationPage.enterUsernamee("zhiibeekk");
+        registrationPage.enterUsernamee("zhiibeekk");
         registrationPage.enterPassword("togzhan09");
         registrationPage.clickSignUpButton();
         Thread.sleep(3000);
